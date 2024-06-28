@@ -16,14 +16,6 @@ export default function Header() {
                 <a href="" className='font-semibold bg-[#F6E9D4] hover:underline px-6 py-3 rounded-full'>Action</a>
             </div>
         </div>
-
-
-
-        <div><div><div></div></div></div>
-
-
-
-
     </div>
   )
 }
