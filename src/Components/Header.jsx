@@ -140,6 +140,53 @@ export default function Header() {
           </div>
         </div>
 
+        <div className="container mx-auto">
+        <div className="flex flex-col items-center w-full my-20">
+          <h2 className="text-5xl font-extrabold">Pricing</h2>
+          <div className="h-1 w-56 mt-3 bg-gradient-to-r from-[#F4CDD9] to-[#F6EAD4]"></div>
+        </div>
+        <div className="flex flex-col md:flex-row justify-center">
+          <div className="text-center md:w-[20%] border my-auto">
+            <div className="text-3xl font-bold p-8 border-b-4">Free</div>
+            <li className="list-none border-b py-4">Things</li>
+            <li className="list-none border-b py-4">Things</li>
+            <li className="list-none border-b py-4">Things</li>
+            <div className="flex-none rounded-b rounded-t-none shadow p-6 overflow-hidden mt-auto">
+              <div className="pt-6 w-full text-3xl text-gray-600 font-bold">£0 <span className="text-base">For one user</span></div>
+              <div className="flex items-center justify-center">
+            <a href="" className="bg-gradient-to-r from-[#D53469] to-[#DAAC51] mx-auto lg:mx-0 hover:underline text-white font-bold rounded-full px-8 py-4 my-6 shadow-lg">Sign Up</a>
+            </div>
+            </div>
+          </div>
+          <div className="text-center md:w-[35%] border">
+            <div className="text-3xl font-bold p-8 border-b-4 mb-12">Basic</div>
+            <div className="h-1 w-full my-0 py-0 rounded-t bg-gradient-to-r from-[#D53469] to-[#DAAC51] md:relative md:-top-[3.25rem]"></div>
+            <li className="list-none border-b py-4">Things</li>
+            <li className="list-none border-b py-4">Things</li>
+            <li className="list-none border-b py-4">Things</li>
+            <div className="flex-none rounded-b rounded-t-none shadow p-6 overflow-hidden mt-auto">
+              <div className="pt-6 w-full text-3xl text-gray-600 font-bold">£x.99 <span className="text-base">/ per year</span></div>
+              <div className="flex items-center justify-center">
+            <a href="" className="bg-gradient-to-r from-[#D53469] to-[#DAAC51] mx-auto lg:mx-0 hover:underline text-white font-bold rounded-full px-8 py-4 my-6 shadow-lg">Sign Up</a>
+            </div>
+            </div>
+          </div>
+          <div className="text-center md:w-[20%] border my-auto">
+            <div className="text-3xl font-bold p-8 border-b-4">Pro</div>
+            <li className="list-none border-b py-4">Things</li>
+            <li className="list-none border-b py-4">Things</li>
+            <li className="list-none border-b py-4">Things</li>
+            <div className="flex-none rounded-b rounded-t-none shadow p-6 overflow-hidden mt-auto">
+              <div className="pt-6 w-full text-3xl text-gray-600 font-bold">£x.99 <span className="text-base">/ per year</span></div>
+              <div className="flex items-center justify-center">
+            <a href="" className="bg-gradient-to-r from-[#D53469] to-[#DAAC51] mx-auto lg:mx-0 hover:underline text-white font-bold rounded-full px-8 py-4 my-6 shadow-lg">Sign Up</a>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+
     </div>
   );
 }
