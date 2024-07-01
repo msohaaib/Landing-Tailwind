@@ -10,11 +10,37 @@ export default function Header() {
       {/* Navbar */}
 
       <div className="flex flex-row justify-between py-5 bg-gradient-to-r from-[#D53469] to-[#DAAC51]">
-        <div className="md:flex flex-row hidden">
+        <div className="md:flex flex-row hidden ml-8">
           <img src={logos} alt="logo" className="h-8" />
           <p className="text-2xl font-bold ml-1">Landing</p>
         </div>
-        <div className="md:flex md:flex-row md:gap-8 fixed top-[90%] flex gap-20 left-1/2 -translate-x-1/2 backdrop-blur-sm px-10 py-3 rounded-full">
+        <div className="md:flex flex-row gap-8 mr-8 hidden">
+          <a
+            href=""
+            className="my-3 text-black hover:text-slate-800 transition-all"
+          >
+            Link1
+          </a>
+          <a
+            href=""
+            className="my-3 text-black hover:text-slate-800 transition-all"
+          >
+            link2
+          </a>
+          <a
+            href=""
+            className="my-3 text-black hover:text-slate-800 transition-all"
+          >
+            Link3
+          </a>
+          <a
+            href=""
+            className="font-semibold bg-[#F6E9D4] hover:underline px-6 py-3 rounded-full"
+          >
+            Action
+          </a>
+        </div>
+        <div className="flex flex-row xs:gap-10 gap-20 backdrop-blur-md border-none px-10 py-3 rounded-full fixed top-[90%] left-1/2 -translate-x-1/2 md:hidden">
           <a
             href=""
             className="my-3 text-black hover:text-slate-800 transition-all"
@@ -44,7 +70,7 @@ export default function Header() {
 
       {/* Hero Section */}
       <div className="flex flex-col md:flex-row items-center justify-center bg-gradient-to-r from-[#D53469] to-[#DAAC51]">
-        <div className="justify-center md:justify-start flex-col p-4 text-white">
+        <div className="justify-center md:justify-start flex-col p-4 text-white ml-8">
           <p className="uppercase text-base my-4 text-center md:text-start">
             What business are you?
           </p>
@@ -275,7 +301,7 @@ export default function Header() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center text-center my-3 bg-gradient-to-r from-[#D53469] to-[#DAAC51] text-white">
+        <div className="flex justify-center text-center md:mt-3 md:mb-0 my-20 bg-gradient-to-r from-[#D53469] to-[#DAAC51] text-white">
           &copy; Copyright Reserved
         </div>
 
